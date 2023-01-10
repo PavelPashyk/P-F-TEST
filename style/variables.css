@@ -1,0 +1,13 @@
+:root {
+  --color-blue: blue;
+  --color-blue-light: rgb(45, 94, 145);
+  --color-white: white;
+  --color-black: black;
+  --color-grey-dark: rgb(59, 73, 80);
+  --color-grey: grey;
+  --color-blackout: rgba(0, 0, 0, 0.2);
+  --trans-slow: all 0.5s linear;
+  --trans-quick: all 0.1s linear;
+  --m-b: 3.125rem;
+  --m-b_media: 1.875rem;
+}

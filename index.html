@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пашик Павел - JS From Zero To Hero 2023</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__block-inner">
+            <a class="header__logo" href="#"
+              ><img src="./img/logo.png" alt="logo"
+            /></a>
+            <nav class="header__nav">
+              <input type="checkbox" id="burger-toggle" />
+              <label for="burger-toggle" class="burger__menu">
+                <span class="burger__line"></span>
+              </label>
+              <ul class="header__menu menu">
+                <li class="menu__item">
+                  <a href="#part-contact">Контакты</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#part-education">Образование</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#part-facts">Интересные факты</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#part-gallery">Галерея</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="contact" id="part-contact">
+          <div class="container">
+            <h2 class="title-top">Контакты</h2>
+            <div class="contact__block-inner">
+              <div class="contact__photo-block">
+                <img
+                  class="contacts__pfoto"
+                  src="./img/photo.jpg"
+                  alt="photo"
+                />
+              </div>
+              <div class="contact__info-block info">
+                <div class="info__contacts-top">
+                  <h3 class="info__name">Пашик Павел</h3>
+                  <p class="info__date">
+                    Дата рождения: <span>02.07.1987</span>
+                  </p>
+                  <p class="info__city">Проживание: <span>г. Минск</span></p>
+                </div>
+                <div class="info__contacts-bottom">
+                  <h4 class="info__contacts">Контактная информация</h4>
+                  <p class="info__contacts-item item-phone">
+                    <a href="tel:+375297318010" target="_blank"
+                      >Телефон: <span>+375(29)7318010</span></a
+                    >
+                  </p>
+                  <p class="info__contacts-item item-mail">
+                    <a href="mailto:pashykpavel@gmail.com" target="_blank"
+                      >Почта: <span>pashykpavel@gmail.com</span></a
+                    >
+                  </p>
+                  <p class="info__contacts-item item-tel">
+                    <a href="https://t.me/Pavel_Pashyk" target="_blank"
+                      >Telegram: <span>@Pavel_Pashyk</span></a
+                    >
+                  </p>
+                  <p class="info__contacts-item item-lin">
+                    <a
+                      href="https://www.linkedin.com/in/pavel-pashyk-960663248/"
+                      target="_blank"
+                      >LinkedIn:
+                      <span>linkedin.com/in/pavel-pashyk-960663248</span></a
+                    >
+                  </p>
+                  <p class="info__contacts-item item-git">
+                    <a href="https://github.com/PavelPashyk" target="_blank"
+                      >GitHub: <span>github.com/PavelPashyk</span></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="education" id="part-education">
+          <div class="container">
+            <h2 class="title-top">Образование</h2>
+            <ul class="education__block-inner">
+              <li class="education__item">
+                <h4 class="education__name">ПТУ-148</h4>
+                <div class="education__info">
+                  <h5 class="education__speciality">Специальность</h5>
+                  <p class="education__working">Автомеханик</p>
+                  <p class="education__date">09/2003 - 06/2006</p>
+                </div>
+              </li>
+              <li class="education__item">
+                <h4 class="education__name">БНТУ</h4>
+                <div class="education__info">
+                  <h5 class="education__speciality">Специальность</h5>
+                  <p class="education__working">Инженер-Экономист</p>
+                  <p class="education__date">09/2015 - 06/2021</p>
+                </div>
+              </li>
+              <li class="education__item">
+                <h4 class="education__name">TeachMeSkills</h4>
+                <div class="education__info">
+                  <h5 class="education__speciality">Специальность</h5>
+                  <p class="education__working">Фронтенд разработчик</p>
+                  <p class="education__date">03/2022 - 10/2022</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="facts" id="part-facts">
+          <div class="container">
+            <h2 class="title-top">Интересные факты</h2>
+            <div class="facts__block-inner">
+              <details class="facts__item">
+                <summary class="facts__title-block">
+                  <h4 class="facts__title">Домашние животные</h4>
+                </summary>
+                <div class="facts__content">
+                  <p class="facts__text">
+                    Очень люблю животных. У меня сейчас кошка, по кличке Салли.
+                    И у нее интересная история. Её достали из двигателя
+                    автомомибиля в возросте где-то 2 месяцев.
+                  </p>
+                </div>
+              </details>
+              <details class="facts__item">
+                <summary class="facts__title-block">
+                  <h4 class="facts__title">Путешествия</h4>
+                </summary>
+                <div class="facts__content">
+                  <p class="facts__text">
+                    Больше всего запомнилась поездка в Сан-Марино. Я там был
+                    несколько лет назад и провел только один день, но
+                    воспоминания о красоте этого города у меня остались до сих
+                    пор.
+                  </p>
+                </div>
+              </details>
+              <details class="facts__item">
+                <summary class="facts__title-block">
+                  <h4 class="facts__title">Моё любимое блюдо</h4>
+                </summary>
+                <div class="facts__content">
+                  <p class="facts__text">
+                    У меня есть много любимых блюд, но самое любимое - это
+                    хинкали.
+                  </p>
+                </div>
+              </details>
+              <details class="facts__item">
+                <summary class="facts__title-block">
+                  <h4 class="facts__title">Хобби</h4>
+                </summary>
+                <div class="facts__content">
+                  <p class="facts__text">
+                    Люблю кататься на велосипеде. И в этом году буду учиться
+                    играть на укулеле (друзья подарили на новый год).
+                  </p>
+                </div>
+              </details>
+              <details class="facts__item">
+                <summary class="facts__title-block">
+                  <h4 class="facts__title">Музыка</h4>
+                </summary>
+                <div class="facts__content">
+                  <p class="facts__text">
+                    Мне трудно сказать какая именно музыка мне нравится. Но
+                    предпочтение я отдаю альтернативному року. Такие группы как
+                    Three Days Grace, Guano Apes, Evanescence, We Are the Fallen
+                    ...
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section class="gallery" id="part-gallery">
+          <div class="container">
+            <h2 class="title-top">Галерея</h2>
+            <div class="gallery__slider">
+              <div class="gallery__slider-menu">
+                <label for="slide-1"></label>
+                <label for="slide-2"></label>
+                <label for="slide-3"></label>
+              </div>
+              <input id="slide-1" type="radio" name="slider" checked />
+              <div class="gallery__slider-item slide-1"></div>
+              <input id="slide-2" type="radio" name="slider" />
+              <div class="gallery__slider-item slide-2"></div>
+              <input id="slide-3" type="radio" name="slider" />
+              <div class="gallery__slider-item slide-3"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <h4 class="footer-text">
+            Тестовое задание для JS From Zero To Hero 2023
+          </h4>
+          <p class="footer-copyright"><span>&#169;</span> Пашик Павел, 2023</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
