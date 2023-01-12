@@ -1,5 +1,5 @@
-# PORTFOLIO-TEST
+# P-F-TEST
 
-## Тестовое задание для JS From Zero To Hero 2023
+### test-task
 
-### Приложение можно посмотреть перейдя по ссылке https://pavelpashyk.github.io/PORTFOLIO-TEST/
+### Страницу можно посмотреть перейдя по ссылке https://pavelpashyk.github.io/PORTFOLIO-TEST/
